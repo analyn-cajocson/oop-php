@@ -8,7 +8,7 @@
 		function __construct($persons_name) {
 			$this->name = $persons_name;
 		}
-		function get_pinn_number(){
+		private function get_pinn_number(){
 			return $this->pinn_number;;
 		}
 	
