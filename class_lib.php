@@ -1,6 +1,10 @@
 <?
 	class person {
 		var $name;
+		public $height;
+		protected $social_insurance;
+		private $spinn_number;
+
 		function __construct($persons_name) {
 			$this->name = $persons_name;
 		}
