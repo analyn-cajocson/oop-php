@@ -30,6 +30,9 @@
 			if ($new_name == "Stefan Sucks"){
 				$this->name = $new_name;
 			}
+			else if ($new_name == "Johnny Fingers"){
+				person::set_name($new_name);
+			}
 		}
 
 	}
