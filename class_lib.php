@@ -12,12 +12,24 @@
 			return $this->pinn_number;;
 		}
 	
+		protected function set_name($new_name){
+			if ($new_name != "Jimmy Two Guns") {
+				$this->name = strtoupper($new_name);
+			}
+		}
+	
 
 	}
 
 	class employee extends person {
 		function __contruct($employee_name){
 			$this->set_name($employee_name);
+		}
+
+		protected function set_name($new_name){
+			if ($new_name == "Stefan Sucks"){
+				$this->name = $new_name;
+			}
 		}
 
 	}
