@@ -15,6 +15,13 @@
 
 	}
 
+	class employee extends person {
+		function __contruct($employee_name){
+			$this->set_name($employee_name);
+		}
+
+	}
+
 
 
 ?>
